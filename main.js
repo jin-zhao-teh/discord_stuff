@@ -8,7 +8,7 @@ function getLocation() {
 
 function showPosition(position) {
   alert(
-    String(position.coords.latitude) + ", " + String(position.coords.longitude)
+    "code: "+String(position.coords.latitude) + ", " + String(position.coords.longitude)
   );
 }
 
